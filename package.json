@@ -1,0 +1,45 @@
+{
+  "name": "projetnodereactequipe3",
+  "version": "1.0.0",
+  "description": "A Node/React App Project - Equipe 3",
+  "main": "server.js",
+  "scripts": {
+    "reload": "node server.js -- reload-db",
+    "fixtures": "node server.js -- reload-db with-fixtures",
+    "start": "node server.js",
+    "dev": "nodemon --trace-deprecation server.js",
+    "prod": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasMaligue/projetNodeReactEquipe3.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "react",
+    "express",
+    "orm",
+    "sequelize"
+  ],
+  "author": "Carolanne, Anthony, Nicolas, Maxime B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasMaligue/projetNodeReactEquipe3/issues"
+  },
+  "homepage": "https://github.com/NicolasMaligue/projetNodeReactEquipe3#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "nodemon": "^2.0.19",
+    "sequelize-fixtures": "^1.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "order-id": "^2.1.2",
+    "sequelize": "^6.21.3"
+  }
+}
